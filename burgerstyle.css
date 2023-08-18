@@ -1,0 +1,133 @@
+
+body{
+    background-image:url("fondotitle.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.titulo{
+    text-align: center;
+    font-family: 'Creepster', cursive;
+    font-size: 2rem;
+    color: #471010; /* Color de fuente naranja */
+    text-shadow: 2px 2px 4px rgba(180, 110, 199, 0.5); 
+    background: rgba(255, 255, 255, 0.097);
+}
+
+.especial{
+    text-align: center;
+    font-family: fantasy;
+}
+
+.dracu{
+    height:300px;
+    top:-10px;
+    left:20%;
+}
+.cupon{
+    border: 1px solid black;
+    border-collapse:collapse;
+    margin: 3 auto;
+    width: 20%;
+    height: 120px;
+    background-image: url(murcielagos.jpg);
+    background-position: center; /* Centra la imagen vertical y horizontalmente */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
+    border-style:double;
+    margin-top: -140px;
+}
+h3{
+    text-align: center;
+    margin-top: 15%;
+    text-decoration: wavy;
+    background-color: rgb(95, 64, 95);
+}
+.second{
+    text-align: center;
+    font-family: 'Creepster', cursive;
+    font-size: 1rem;
+    color: #69291e; /* Color de fuente naranja */
+    text-shadow: 2px 2px 4px rgba(148, 83, 83, 0.5); /
+}
+
+.combos{
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(163, 103, 103, 1);
+    border: 2px solid black;
+    width: 20%;
+    height: 40%;
+    float: center;background: rgba(255, 255, 255, 0.357);
+    margin-left: 32%;
+    margin-right: -200%; /* Espacio más pequeño */
+    margin-bottom: -200px; /* Ajusta el espacio inferior */
+    transform: translateX(-40%) translateY(-40%);
+    background: rgba(255, 255, 255, 0.205);
+}
+.Entradas{
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(163, 103, 103, 1);
+    border: 2px solid black;
+    width: 20%;
+    height: 50%;
+    position: absolute;
+    top: 60%; /* Ajusta la posición vertical hacia arriba */
+    right: 22%; /* Ajusta la posición horizontal hacia la derecha */
+    transform: translateX(-50%) translateY(-50%);
+    background: rgba(255, 255, 255, 0.205);
+}
+.galeria{
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(163, 103, 103, 1);
+    border: 2px solid black;
+    width: 20%;
+    height: 30%;
+    position: absolute;
+    top: 55%; /* Ajusta la posición vertical hacia arriba */
+    right: -2%; /* Ajusta la posición horizontal hacia la derecha */
+    transform: translateX(-40%) translateY(-40%);
+    background: rgba(255, 255, 255, 0.205);
+}
+footer{
+    background-color: rgb(52, 49, 49);
+    text-align: center;
+    background-image: url(wpp.jpg);
+    background-position: center;
+    clear: both; /* Limpia el flotado de los combos */
+    padding-top: 20px;
+    margin-top: 5px; /* Ajusta el espacio superior */
+    padding-top: 5px; /* Ajusta el espacio entre el combo y el footer */
+}
+.contact-form{
+    border: 2px solid black;
+    width: 70%;
+    height: 90%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.241); /* Fondo semi-transparente para el formulario */
+    padding: 10px;
+    margin-left: 10%;
+    
+}
+.contact-form label {
+    display: block; /* Cambia a bloque para que la etiqueta esté en una línea separada */
+    margin-bottom: 5px; /* Espacio entre las etiquetas y los campos */
+}
+
+.contact-form textarea {
+    /* Estilos adicionales para el casillero de mensaje */
+    display: block;
+    width: 100%;
+    resize: vertical; /* Permite redimensionar verticalmente el casillero de mensaje */
+}
+
+.contact-form button {
+    /* Estilos para el botón de Enviar */
+    display: block;
+    margin-top: 10px; /* Espacio entre el casillero de mensaje y el botón */
+    background-color: #381858;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

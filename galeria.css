@@ -1,0 +1,17 @@
+body{
+    background-image:url(galeria.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.uno{
+    background: rgba(255, 255, 255, 0.379);
+}
+.dos{
+    background: rgba(255, 255, 255, 0.379);
+}
+
+.tres{
+    background: rgba(255, 255, 255, 0.379);
+}
