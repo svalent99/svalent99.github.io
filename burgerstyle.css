@@ -54,7 +54,6 @@ h3{
 .combos{
     text-align: center;
     text-shadow: 2px 2px 4px rgba(163, 103, 103, 1);
-    border: 2px solid black;
     width: 20%;
     height: 40%;
     float: center;background: rgba(255, 255, 255, 0.357);
@@ -67,7 +66,6 @@ h3{
 .Entradas{
     text-align: center;
     text-shadow: 2px 2px 4px rgba(163, 103, 103, 1);
-    border: 2px solid black;
     width: 20%;
     height: 50%;
     position: absolute;
@@ -79,7 +77,6 @@ h3{
 .galeria{
     text-align: center;
     text-shadow: 2px 2px 4px rgba(163, 103, 103, 1);
-    border: 2px solid black;
     width: 20%;
     height: 30%;
     position: absolute;
