@@ -69,7 +69,7 @@ h3{
     width: 20%;
     height: 50%;
     position: absolute;
-    top: 60%; /* Ajusta la posición vertical hacia arriba */
+    top: 70%; /* Ajusta la posición vertical hacia arriba */
     right: 22%; /* Ajusta la posición horizontal hacia la derecha */
     transform: translateX(-50%) translateY(-50%);
     background: rgba(255, 255, 255, 0.205);
@@ -78,7 +78,7 @@ h3{
     text-align: center;
     text-shadow: 2px 2px 4px rgba(163, 103, 103, 1);
     width: 20%;
-    height: 30%;
+    height: 50%;
     position: absolute;
     top: 55%; /* Ajusta la posición vertical hacia arriba */
     right: -2%; /* Ajusta la posición horizontal hacia la derecha */
